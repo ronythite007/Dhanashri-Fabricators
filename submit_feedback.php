@@ -3,10 +3,14 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$servername = "localhost";
-$username = "root";
-$password = "ronythite@007";
-$dbname = "dhanashri";
+// Load database configuration
+$config = include('config.php');
+
+// Extract credentials
+$servername = $config['DB_SERVERNAME'];
+$username = $config['DB_USERNAME'];
+$password = $config['DB_PASSWORD'];
+$dbname = $config['DB_NAME'];
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
