@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <!-- Include Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #003471; /* Background color for the heading */
+            color: #ffffff; /* Text color for the heading */
+            padding: 10px 20px; /* Padding for the heading */
+            border-top-left-radius: 10px; /* Adjust border radius for top corners */
+            border-top-right-radius: 10px; /* Adjust border radius for top corners */
+        }
+
+        /* Gallery section */
+        .gallery {
+            position: relative; /* Required for absolute positioning of arrows */
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        /* Customize Slick Carousel arrows */
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 60px; /* Increased width */
+            height: 60px; /* Increased height */
+            background-color: rgba(0, 0, 0, 0); /* Transparent background color */
+            border-radius: 50%;
+            color: #ffffff; /* Dark color */
+            font-size: 24px;
+            line-height: 60px; /* Adjusted line height */
+            text-align: center;
+            cursor: pointer;
+            z-index: 999;
+            border: 3px solid #bfbdbd; /* Dark border */
+            outline: none;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        .slick-prev {
+            left: 20px;
+        }
+
+        .slick-next {
+            right: 20px;
+        }
+
+        .slick-prev:hover, .slick-next:hover {
+            background-color: rgba(149, 143, 143, 0.5); /* Semi-transparent background color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>About Dhanashri Fabricators</h1>
+        <h2>Elevate Your Projects with Dhanashri Fabricators</h2>
+        <p>Welcome to Dhanashri Fabricators, where precision meets innovation in every project. With our unwavering commitment to excellence and decades of expertise, we specialize in turning visions into reality. From intricate metalwork to cutting-edge structural designs, we deliver unparalleled craftsmanship that stands the test of time.</p>
+        <ul>
+            <li><strong>Exceptional Quality:</strong> Our team of skilled artisans and engineers ensure top-notch quality in every detail.</li>
+            <li><strong>Creative Solutions:</strong> We thrive on challenges and offer innovative solutions tailored to your specific needs.</li>
+            <li><strong>Reliability:</strong> Count on us for on-time delivery and flawless execution, every time.</li>
+            <li><strong>Customer Satisfaction:</strong> Your satisfaction is our priority. We listen, understand, and exceed your expectations.</li>
+        </ul>
+        <p>Partner with Dhanashri Fabricators and elevate your projects to new heights. Let's bring your ideas to life, together.</p>
+        <p>Contact us today to discuss your project needs and discover the difference our expertise can make.</p>
+        <!-- French Door section -->
+        <h2>Explore Our Inspiring Designs</h2>
+
+        <div class="section" id="french-door">
+            <h3>French Door</h3>
+            <div class="gallery">
+                <img src="images/french.jpg" alt="French Door Image 1">
+                <img src="images/french1.jpg" alt="French Door Image 2">
+                <img src="images/french3.jpg" alt="French Door Image 2">
+                <!-- Add more images for French Door section as needed -->
+            </div>
+        </div>
+
+        <!-- SS Work section -->
+        <div class="section" id="ss-work">
+            <h3>SS Work</h3>
+            <div class="gallery">
+                <img src="images/ss1.jpg" alt="SS Work Image 1">
+                <img src="images/ss2.jpg" alt="SS Work Image 2">
+                <img src="images/ss3.jpg" alt="SS Work Image 3">
+                <img src="images/ss4.jpg" alt="SS Work Image 4">
+                <!-- Add more images for SS Work section as needed -->
+            </div>
+        </div>
+
+        <!-- Modern Designs section -->
+        <div class="section" id="modern-designs">
+            <h3>Modern Swing Designs</h3>
+            <div class="gallery">
+                <img src="images/metal-swing.jpeg" alt="Modern Designs Image 1">
+                <img src="images/metal-swing1.webp" alt="Modern Designs Image 2">
+                <img src="images/metal-swing2.jpg" alt="Modern Designs Image 2">
+                <!-- Add more images for Modern Designs section as needed -->
+            </div>
+        </div>
+
+        <!-- Structures section -->
+        <div class="section" id="structures">
+            <h3>Structures</h3>
+            <div class="gallery">
+                <img src="images/industry1.jpg" alt="Structures Image 1">
+                <img src="images/industry2.jpg" alt="Structures Image 2">
+                <!-- Add more images for Structures section as needed -->
+            </div>
+        </div>
+
+        <!-- Business info section -->
+        <div class="business-info">
+            <h2>Expert Craftsmanship for Your Unique Vision</h2>
+            <p>At Dhanashri Fabricators, we specialize in delivering expert craftsmanship across a diverse range of services. From the installation and fabrication of elegant French doors to precision stainless steel work, innovative modern designs, and robust structural fabrication, we are dedicated to bringing your unique vision to life. Our team of skilled artisans and engineers combines creativity with technical expertise to deliver superior results that exceed expectations. Whether you're enhancing your home, upgrading your commercial space, or embarking on an industrial project,
+                 trust Dhanashri Fabricators for unparalleled quality and reliability.</p>
+            <!-- Add more business information as needed -->
+        </div>
+    </div>
+    <!-- Business owner details section -->
+<div class="business-owner-details">
+    <div class="container">
+        <div style="background-color: #003471; color: #fff; padding: 20px; border-radius: 10px; text-align: center;">
+            <h2>Business Owner </h2>
+            <img src="images/owner.jpg" alt="Business Owner Photo" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px;">
+            <h2 style="font-family:Georgia;"><b>Rajendra Vitthal Thite</b></h2>
+            <p>• founder of Dhanashri Fabricators</p>
+            <h3 style="font-family:sans-serif;">Established in 1999, Dhanashri Fabricators stands as a testament to the vision of its founder,
+                Rajendra Vitthal Thite. With a passion for precision engineering, Rajendra has led the company to become a trusted name in the industry.
+                His commitment to quality and innovation has propelled Dhanashri Fabricators to new heights, earning the respect and trust of clients worldwide.
+                Under his leadership, the company continues to thrive, delivering excellence in every project and setting new standards for craftsmanship and reliability.</h3>
+            <h3 style="font-family:sans-serif;">rajuthite4@gmail.com</h3>
+            <h3 style="font-family:sans-serif;">+91 9422086788</h3>
+            <h3 style="font-family:sans-serif;">Pune 411046, India</h3>
+            <h3>Social Media link</h3>
+            <a href="https://www.facebook.com/raju.thite.7?mibextid=LQQJ4d/">click here</a>
+        </div>
+    </div>
+</div>
+
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Include Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.gallery').slick({
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000, // Adjust autoplay speed as needed
+                prevArrow: '<button type="button" class="slick-prev">&#8592;</button>',
+                nextArrow: '<button type="button" class="slick-next">&#8594;</button>'
+            });
+        });
+    </script>
+</body>
+</html>
