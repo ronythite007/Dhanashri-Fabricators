@@ -87,7 +87,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/resort\ \(1\).jpg);
+  background-image: url(../images/new_bgavif.avif);
   background-size: cover;
 }
 
@@ -96,7 +96,7 @@ a:focus {
 }
 
 .sub_page .header_section .header_bottom {
-  background-color: #003471;
+  background-color: #252525;
 }
 
 .header_section {
@@ -105,7 +105,7 @@ a:focus {
 
 .header_section .header_top {
   padding: 15px 0;
-  background-color: #003471;
+  background-color: #252525;
 }
 
 .header_section .header_top .header_top_container {
@@ -394,7 +394,7 @@ a:focus {
   margin-bottom: 0;
   color: #ffffff;
   font-size: 3rem;
-  text-shadow: 2px 2px 4px #000000; /* Add a black border */
+  text-shadow: 2px 2px 4px #00000050; /* Add a black border */
 }
 
 
@@ -516,7 +516,7 @@ a:focus {
 }
 
 .about_section .detail-box p {
-  color: #1f1f1f;
+  color: #003471;
   margin-top: 15px;
 }
 
@@ -538,7 +538,7 @@ a:focus {
 }
 
 .portfolio_section {
-  background-color: #003471;
+  background: linear-gradient(135deg, #ffffff 50%, #f0f4f8 50%);
   color: #ffffff;
   padding-top: 45px;
 }
@@ -572,7 +572,7 @@ a:focus {
 
 .portfolio_section .filter_box .owl-filter-bar a {
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
   padding: 5px 10px;
   font-size: 15px;
   border-radius: 2px;
@@ -792,7 +792,7 @@ a:focus {
 }
 
 .contact_section .form_container {
-  background-color: #003471;
+  background-color: #252525;;
   padding: 45px;
 }
 
@@ -1179,3 +1179,4 @@ a:focus {
   display: inline-block;
   margin-top: 20px; /* Adjust as needed */
 /* } */ 
+

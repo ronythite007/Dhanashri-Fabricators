@@ -61,75 +61,45 @@
   <div class="hero_area">
     <!-- header section starts -->
     <header class="header_section">
-      <div class="header_top">
-        <div class="container-fluid header_top_container">
-          
-          <a class="navbar-brand" href="index.html">
-            <img src="images/DF2.png" class="logo" alt="Dhanashri Fabricators Logo">
-            Dhanashri<span>Fabricators</span>
-            <p style="font-family: Arial; font-size: 10px;">SINCE 1999</p>
-          </a>
-    
-          <div class="contact_nav">
-            <a href="">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>Location</span>
-            </a>
-            <a href="tel:+919422086788">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>Call: +91 9422086788</span>
-            </a>
-            <a href="mailto:rajuthite4@gmail.com">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>rajuthite4@gmail.com</span>
-            </a>
-          </div>
-          
-          <div class="social_box">
-            <a href="https://www.facebook.com/raju.thite.7?mibextid=LQQJ4d/" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="header_bottom">
+      
+      <div class="header_bottom" style="background-color: #252525;">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
-            <a class="navbar-brand navbar_brand_mobile" href="index.html"> Dhanashri<span>Fabricators</span> </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Logo for Larger Screens -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <div class="ml-2 text-white">
+                <span style="color: white;">Dhanashri</span><span>Fabricators</span>
+                <p style="font-family: Arial; font-size: 10px; margin: 0;">SINCE 1999</p>
+              </div>
+            </a>
+            
+            
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
+            
+            <!-- Navbar Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">Services</a>
+                  <a class="nav-link text-white" href="service.html">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link text-white" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tel:+919422086788">Contact Us</a>
+                  <a class="nav-link text-white" href="tel:+919422086788">Contact Us</a>
                 </li>
-                
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link text-white" href="#">
                     <i class="fa fa-user" aria-hidden="true"></i>
                   </a>
                 </li>
@@ -138,10 +108,36 @@
           </nav>
         </div>
       </div>
+      
     </header>
     <!-- end header section -->
 
-
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/9422086788" 
+   class="whatsapp-float" 
+   target="_blank" 
+   style="
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 1000;
+     background-color: rgb(27, 192, 88);
+     border-radius: 50%;
+     width: 60px;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     text-decoration: none;
+     overflow: hidden;
+   ">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+        alt="WhatsApp" 
+        class="whatsapp-icon" 
+        style="width: 40px; height: 40px;"/>
+</a>
+        
     <!-- slider section -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
@@ -149,9 +145,9 @@
           <div class="carousel-item active">
             <div class="container ">
               <div class="detail-box">
-                <h1>
-                  We Build <br />
-                  The Things Architects <br />
+                <h1 style="font-family: 'Philospher ';color:#000 ">
+                  We Build 
+                  The Things Architects 
                   Dream Up
                 </h1>
                 <div class="btn-box">
@@ -168,10 +164,8 @@
           <div class="carousel-item">
             <div class="container ">
               <div class="detail-box">
-                <h1>
-                  Any Problem related Fabrication, <br />
-                  Here is the solution for it, <br />
-                  Join with us
+                <h1 style="font-family: 'Philospher ';color:#000 ">
+                  Experience the Art of Fabrication – Trusted for Over Two Decades.
                 </h1>
                 <div class="btn-box">
                   <a href="next-page.html" class="btn1">
@@ -187,9 +181,9 @@
           <div class="carousel-item">
             <div class="container ">
               <div class="detail-box">
-                <h1>
-                  Our Business <br />
-                  having ⭐⭐⭐⭐⭐ star rating on Just Dial <br />
+                <h1 style="font-family: 'Philospher ';color:#000 ">
+                  Crafting Excellence Since 1999 – Precision in Every Fabrication.<br />
+                
               
                 </h1>
                 <div class="btn-box">
@@ -204,7 +198,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel_btn-box">
+        <!-- <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
             <span class="sr-only">Previous</span>
@@ -213,7 +207,7 @@
             <i class="fa fa-arrow-right" aria-hidden="true"></i>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- end slider section -->
@@ -227,7 +221,7 @@
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
-              <h2>Welcome to <span>Dhanashri Fabricators</span></h2>
+              <h2 style="font-family: 'Philospher '" >Welcome to <span>Dhanashri Fabricators</span></h2>
             </div>
             <p>
               Since 1999, Dhanashri Fabricators has been synonymous with excellence in fabrication. 
@@ -250,71 +244,483 @@
   <!-- end about section -->
 
   <!-- portfolio section -->
-
-  <section class="portfolio_section ">
+  <section class="portfolio_section">
     <div class="container">
+      <!-- Heading Section -->
       <div class="heading_container heading_center">
-        <h2>
+        <h2 style="font-family: 'Philospher ' ;color: #000">
           Our Work Portfolio
         </h2>
+        <p style="color: #555; font-size: 1em; margin-bottom: 30px;">
+          Explore our diverse range of projects, crafted with precision and creativity.
+        </p>
       </div>
-      <div class="carousel-wrap ">
-        <div class="filter_box">
-          <nav class="owl-filter-bar">
-            <a href="#" class="item active" data-owl-filter="*">All</a>
-            <a href="#" class="item" data-owl-filter=".decorative">DECORATIVE</a>
-            <a href="#" class="item" data-owl-filter=".facade">FACADES </a>
-            <a href="#" class="item" data-owl-filter=".perforated">PERFORATED
-            </a>
-            <a href="#" class="item" data-owl-filter=".railing">RAILINGS </a>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <div class="owl-carousel portfolio_carousel">
-      <div class="item decorative">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p7.jpg" alt="" />
-            
+  
+      <!-- Portfolio Items Carousel -->
+      <div class="owl-carousel portfolio_carousel">
+        <!-- First Set of Images -->
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/p7.jpg" alt="Decorative Project" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="item facade">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p4.jpg" alt="" />
-            
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/p4.jpg" alt="Facade Project" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="item perforated decorative">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p5.jpg" alt="" />
-            
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/p5.jpg" alt="Perforated Decorative Project" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="item railing">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p8.jpg" alt="" />
-            
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_1.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_3.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_4.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_6.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <!-- Second Set of Images -->
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_8.jpg" alt="Decorative Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_21.jpg" alt="Facade Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_22.jpg" alt="Perforated Decorative Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_32.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_48.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Work-Data/img_36.jpg" alt="Railing Project" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
+  
+  <!-- Styles -->
+  <style>
+  .portfolio_section {
+    padding: 50px 0;
+    background-color: #f9fafc;
+  }
+  
+  .heading_container h2 {
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .owl-filter-bar {
+    margin-bottom: 30px;
+  }
+  
+  .owl-filter-bar .item {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+  }
+  
+  .owl-filter-bar .item:hover,
+  .owl-filter-bar .item.active {
+    background: #0078ff;
+    color: #fff;
+  }
+  
+  .owl-carousel .item .box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .owl-carousel .item .img-box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .owl-carousel .item:hover .img-box img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 120, 255, 0.8);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover .overlay {
+    transform: translateY(0);
+  }
+  
+  .overlay h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .overlay p {
+    font-size: 0.9em;
+  }
+  </style>
+  
   <!-- end portfolio section -->
+  <section class="portfolio_section">
+    <div class="container">
+      <!-- Heading Section -->
+      <div class="heading_container heading_center">
+        <h2 style="font-family: 'Philospher ' ;color: #000">
+    Creative Works        </h2>
+        <p style="color: #555; font-size: 1em; margin-bottom: 30px;">
+          Explore our diverse range of Decorative items, crafted with precision and creativity.
+        </p>
+      </div>
+  
+      <!-- Portfolio Items Carousel -->
+      <div class="owl-carousel portfolio_carousel">
+        <!-- First Set of Images -->
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241225-WA0017.jpg" alt="Decorative Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241225-WA0019.jpg" alt="Facade Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241225-WA0024.jpg
+              " alt="Perforated Decorative Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241225-WA0042.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0028.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0029.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0030.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <!-- Second Set of Images -->
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0031.jpg" alt="Decorative Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0032.jpg" alt="Facade Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0033.jpg" alt="Perforated Decorative Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0034.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0035.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0036.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0037.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0038.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0039.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0051.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0050.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0052.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0043.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0044.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0045.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0046.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0047.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0048.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/decorative_items/IMG-20241230-WA0049.jpg" alt="Railing Project" />
+            </div>
+          </div>
+        </div>
 
+
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Styles -->
+  <style>
+  .portfolio_section {
+    padding: 50px 0;
+    background-color: #f9fafc;
+  }
+  
+  .heading_container h2 {
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .owl-filter-bar {
+    margin-bottom: 30px;
+  }
+  
+  .owl-filter-bar .item {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+  }
+  
+  .owl-filter-bar .item:hover,
+  .owl-filter-bar .item.active {
+    background: #0078ff;
+    color: #fff;
+  }
+  
+  .owl-carousel .item .box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .owl-carousel .item .img-box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .owl-carousel .item:hover .img-box img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 120, 255, 0.8);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover .overlay {
+    transform: translateY(0);
+  }
+  
+  .overlay h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .overlay p {
+    font-size: 0.9em;
+  }
+  </style>
   <!-- service section -->
 
   <section class="service_section layout_padding">
     <div class="container ">
       <div class="heading_container heading_center">
-        <h2>Our <span>Services</span></h2>
+        <h2 style="font-family: 'Philospher '" >Our <span>Services</span></h2>
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4">
@@ -433,190 +839,266 @@
     
   <!-- slider video section -->
 
-  <section class="video-slider">
-    <h2>Our Work in Action</h2>
+  <section class="video-gallery">
+    <h2 style="font-family: 'Philospher '">Our Work in Action</h2>
     <p>Take a look at some of the projects we've completed for our happy clients.</p>
 
-    <div class="slider-container">
-        <div class="slider-wrapper">
-            <div class="video-slide active">
-                <video controls muted>
+    <div class="gallery-container">
+        <div class="gallery-item" onclick="openModal('V1.mp4')">
+            <div class="video-container">
+                <video class="video" muted>
                     <source src="Videos/V1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>MS Stairs</p>
+                <div class="overlay">
+                    <p>MS Stairs</p>
+                </div>
             </div>
+        </div>
 
-            <div class="video-slide">
-                <video controls muted>
+        <div class="gallery-item" onclick="openModal('V4.mp4')">
+            <div class="video-container">
+                <video class="video" muted>
                     <source src="Videos/V4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Modern Design Remote Control Gate</p>
+                <div class="overlay">
+                    <p>Modern Design Remote Control Gate</p>
+                </div>
             </div>
+        </div>
 
-            <div class="video-slide">
-                <video controls muted>
+        <div class="gallery-item" onclick="openModal('V5.mp4')">
+            <div class="video-container">
+                <video class="video" muted>
                     <source src="Videos/V5.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Installation of Huts in Resort</p>
+                <div class="overlay">
+                    <p>Installation of Huts in Resort</p>
+                </div>
             </div>
+        </div>
 
-            <div class="video-slide">
-                <video controls muted>
+        <div class="gallery-item" onclick="openModal('V6.mp4')">
+            <div class="video-container">
+                <video class="video" muted>
                     <source src="Videos/V6.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Tech Mahindra Company, Reception Counters In MS</p>
+                <div class="overlay">
+                    <p>Tech Mahindra Company, Reception Counters In MS</p>
+                </div>
             </div>
+        </div>
 
-            <div class="video-slide">
-                <video controls muted>
+        <div class="gallery-item" onclick="openModal('V7.mp4')">
+            <div class="video-container">
+                <video class="video" muted>
                     <source src="Videos/V7.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>MS Shed Covering</p>
+                <div class="overlay">
+                    <p>MS Shed Covering</p>
+                </div>
             </div>
+        </div>
 
-            <div class="video-slide">
-                <video controls muted>
+        <div class="gallery-item" onclick="openModal('V8.mp4')">
+            <div class="video-container">
+                <video class="video" muted>
                     <source src="Videos/V8.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Manglori Styles Hut</p>
+                <div class="overlay">
+                    <p>Manglori Styles Hut</p>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="slider-controls">
-        <button class="prev" onclick="changeSlide(-1)">❮</button>
-        <button class="next" onclick="changeSlide(1)">❯</button>
-    </div>
 </section>
 
+<!-- Modal -->
+<div id="videoModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <video id="modalVideo" class="modal-content" controls>
+        Your browser does not support the video tag.
+    </video>
+</div>
+
 <style>
-    /* Video Slider Section Styling */
-    .video-slider {
+    /* General styling for the section */
+    .video-gallery {
         text-align: center;
         padding: 20px 0;
         background-color: #f7f9fc;
-        border-radius: 20px;
         max-width: 1200px;
         margin: 40px auto;
     }
 
-    .video-slider h2 {
+    .video-gallery h2 {
         font-size: 2rem;
         color: #2c3e50;
         margin-bottom: 10px;
         font-weight: 700;
     }
 
-    .video-slider p {
+    .video-gallery p {
         color: #7f8c8d;
         font-size: 1rem;
         margin-bottom: 20px;
     }
 
-    .slider-container {
+    /* Grid layout */
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .gallery-item {
         position: relative;
         overflow: hidden;
-        border-radius: 12px;
-        width: 100%;
-        max-height: 80vh; /* Limit to a maximum height */
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
     }
 
-    .slider-wrapper {
-        display: flex;
-        transition: transform 0.5s ease; /* Smooth transition for sliding */
-        width: 100%;
+    .gallery-item:hover {
+        transform: scale(1.05); /* Slight zoom effect */
     }
 
-    .video-slide {
-        min-width: 100%; /* Each slide takes full width */
+    /* Video container */
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 200px; /* Adjust the height of the video container */
+        overflow: hidden;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures videos cover the container without distortion */
+    }
+
+    /* Overlay with description */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+        color: white;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative; /* For absolute positioning of video */
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        text-align: center;
     }
 
-    .video-slide video {
-        width: 100%; /* Full width */
-        height: auto; /* Maintain aspect ratio */
-        max-height: 100%; /* Full height for video */
+    .gallery-item:hover .overlay {
+        opacity: 1; /* Show description on hover */
     }
 
-    .video-slide p {
-        padding: 10px;
-        font-weight: 500;
-        color: #333;
-        margin-top: 10px; /* Space between video and title */
+    .overlay p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0;
     }
 
-    .slider-controls {
-        margin-top: 20px;
+    /* Modal styles */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
+        overflow: auto;
+        padding-top: 60px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .prev, .next {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 5px;
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 900px;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        transition: color 0.3s ease;
         cursor: pointer;
-        font-size: 18px;
-        margin: 0 10px;
-        transition: background-color 0.3s ease;
     }
 
-    .prev:hover, .next:hover {
-        background-color: #0056b3;
+    .close:hover,
+    .close:focus {
+        color: #f44336;
     }
 
-    /* Responsive design for mobile screens */
+    /* Responsive design */
     @media (max-width: 768px) {
-        .video-slider h2 {
-            font-size: 1.5rem; /* Adjust heading size for mobile */
+        .video-gallery h2 {
+            font-size: 1.5rem;
         }
 
-        .video-slider p {
-            font-size: 0.9rem; /* Adjust paragraph size for mobile */
+        .video-gallery p {
+            font-size: 0.9rem;
         }
 
-        .prev, .next {
-            padding: 8px 12px; /* Adjust button padding for mobile */
-            font-size: 16px; /* Adjust button font size for mobile */
+        .gallery-item {
+            height: 180px; /* Adjust height on smaller screens */
+        }
+
+        .modal-content {
+            width: 95%;
         }
     }
 </style>
 
 <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.video-slide');
-    const sliderWrapper = document.querySelector('.slider-wrapper');
+    function openModal(videoSrc) {
+        const modal = document.getElementById("videoModal");
+        const modalVideo = document.getElementById("modalVideo");
+        
+        // Set the source of the video to the clicked video source
+        modalVideo.src = `Videos/${videoSrc}`;
+        modal.style.display = "flex"; // Show the modal
+        modalVideo.play(); // Start playing the video
+    }
 
-    function showSlide(index) {
-        if (index >= slides.length) {
-            currentSlide = 0;
-        } else if (index < 0) {
-            currentSlide = slides.length - 1;
-        } else {
-            currentSlide = index;
+    function closeModal() {
+        const modal = document.getElementById("videoModal");
+        const modalVideo = document.getElementById("modalVideo");
+
+        // Stop the video and reset the source
+        modalVideo.pause();
+        modalVideo.src = '';
+        modal.style.display = "none"; // Close the modal
+    }
+
+    // Close modal when clicking anywhere outside the modal content
+    window.onclick = function(event) {
+        const modal = document.getElementById("videoModal");
+        if (event.target == modal) {
+            closeModal();
         }
-
-        // Calculate the offset for sliding effect
-        const offset = -currentSlide * 100;
-        sliderWrapper.style.transform = `translateX(${offset}%)`;
     }
-
-    function changeSlide(direction) {
-        showSlide(currentSlide + direction);
-    }
-
-    // Show the first slide on page load
-    showSlide(currentSlide);
 </script>
 
 
@@ -624,7 +1106,7 @@
   <!-- start achievements section -->
 
 <section class="achievements">
-  <h2>Our Achievements</h2>
+  <h2 style="font-family: 'Philospher '">Our Achievements</h2>
   <p>We pride ourselves on delivering exceptional results and exceeding expectations.</p>
 
   <div class="stats-container">
@@ -741,26 +1223,27 @@
     <!-- end achievements section -->
 
   <!-- contact section -->
-  <section class="contact_section ">
+  <section class="contact_section">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>Get In <span>Touch</span></h2>
+        <h2 style="font-family: 'Philospher '">Get In <span>Touch</span></h2>
       </div>
       <div class="row">
+        <!-- Form Section -->
         <div class="col-md-6 px-0">
           <div class="form_container">
             <form id="contactForm">
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Your Name" name="name" />
+                  <input type="text" class="form-control" placeholder="Your Name" name="name" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" name="phone" />
+                  <input type="tel" class="form-control" placeholder="Phone Number" name="phone" pattern="[0-9]{10}" required />
                 </div>
                 <div class="form-group col-lg-6">
-                  <select name="service" class="form-control wide">
+                  <select name="service" class="form-control wide" required>
                     <option value="">Select Service</option>
                     <option value="Service 1">Service 1</option>
                     <option value="Service 2">Service 2</option>
@@ -770,28 +1253,26 @@
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" name="email" />
+                  <input type="email" class="form-control" placeholder="Email" name="email" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" name="message" />
+                  <textarea class="message-box form-control" placeholder="Message" name="message" required></textarea>
                 </div>
               </div>
               <div class="btn_box">
-                <button type="submit">
-                  SEND
-                </button>
+                <button type="submit">SEND</button>
               </div>
-              <!-- Add the success message here -->
+              <!-- Success Message -->
               <div id="successMessage" style="display: none;">
                 <strong>Form data sent successfully!</strong>
               </div>
             </form>
           </div>
         </div>
+        <!-- Google Map Section -->
         <div class="col-md-6 px-0">
-          <!-- Your map container -->
           <div class="map_container">
             <div class="map">
               <div id="googleMap"></div>
@@ -801,6 +1282,7 @@
       </div>
     </div>
   </section>
+  
   <!-- end contact section -->
 <!-------------------------------------------------------------------------------------------------------------->
 
@@ -810,7 +1292,7 @@
   <section class="client_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>
+        <h2 style="font-family: 'Philospher '">
           Our Expertise / Work
         </h2>
       </div>
@@ -895,7 +1377,7 @@
 <!-- Feedback Section Start -->
 <section class="feedback-section">
   <div class="feedback-box">
-      <h2>How Would You Rate Us?
+      <h2 style="font-family: 'Philospher '">How Would You Rate Us?
       </h2>
       
       <div class="stars" data-product-id="1">
